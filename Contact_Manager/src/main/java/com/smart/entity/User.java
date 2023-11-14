@@ -25,6 +25,7 @@ public class User {
 	private boolean enabled;
 	private String imageUrl;
 	private String about;
+	
 	@OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY)
 	private List<Contact>contact=new ArrayList<>();
 	public int getId() {

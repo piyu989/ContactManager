@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>This is home Page</title>
+</head>
+<body>
+	<section class="banner">
+		<div>
+			<h1>This is home page</h1>
+			<p>
+				Start collecting your contact in a smarter way.
+			</p>
+		</div>
+	</section>
+</body>
+</html> 
