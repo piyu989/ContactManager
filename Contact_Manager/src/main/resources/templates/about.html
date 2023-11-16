@@ -1,13 +1,67 @@
 <!doctype html>
 <html lang="en" xmlns="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
 <head>
-	<meta charset="UTF-8" />
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>This is home Page</title>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-	<section>
-		<h1>This is about page</h1>
-		<h2>Here we are going to write about our project</h2>
-	</section>
+	<header>
+        <h1>Contact Manager App</h1>
+    </header>
+
+    <section>
+        <h2>About Us</h2>
+        <p>
+            Welcome to the Contact Manager App, your go-to solution for efficient and organized contact management. Our app is designed to simplify the way you handle and interact with your contacts, both in your personal and professional life.
+        </p>
+
+        <h2>Key Features</h2>
+        <ul>
+            <li>Effortless Contact Creation and Editing</li>
+            <li>Categorization for Easy Organization</li>
+            <li>Quick and Intuitive User Interface</li>
+            <li>Multi-Platform Synchronization</li>
+            <!-- Add more features as needed -->
+        </ul>
+
+        <h2>Why Choose Us?</h2>
+        <p>
+            Our Contact Manager App is crafted with user convenience in mind. We understand the importance of seamless communication and aim to provide you with a reliable tool that enhances your ability to manage contacts efficiently. Whether you're a busy professional or an individual looking to stay connected, our app is here to simplify your life.
+        </p>
+    </section>
 </body>
 </html> 

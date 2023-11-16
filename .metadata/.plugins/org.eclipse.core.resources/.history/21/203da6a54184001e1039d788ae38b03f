@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>This is home Page</title>
+</head>
+<body>
+	<section>
+		<h1>About</h1>
+		<h3>A contact manager app is a versatile and indispensable tool designed to streamline and organize communication in today's fast-paced digital world. This application serves as a centralized hub for storing and managing a user's contacts, offering a convenient way to access essential information at a moment's notice. With features such as contact creation, editing, and categorization, users can effortlessly maintain an up-to-date address book tailored to their needs. The contact manager app enhances efficiency by facilitating quick and easy retrieval of contact details, ensuring seamless communication across personal and professional networks. Additionally, some advanced contact managers may integrate with other applications, providing synchronization across devices and platforms. Ultimately, a well-designed contact manager app is a reliable companion, simplifying the complexities of contact management and fostering effective communication in both personal and business contexts.</h3>
+	</section>
+</body>
+</html> 

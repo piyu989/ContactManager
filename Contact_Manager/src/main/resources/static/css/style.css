@@ -13,3 +13,7 @@ body{
 	color: white;
     background-repeat: no-repeat;
 }
+.my-card{
+	padding: 20px;
+	background: #ffffff;
+}
