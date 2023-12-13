@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.thymeleaf.org" 
+th:replace="normal/base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>This is home Page</title>
+	
+</head>
+<body>
+    <section>
+
+		<div id="confirmation">
+        <p>Are you sure you want to log out?</p>
+        <button onclick="confirmLogout()">Yes</button>
+        <button onclick="cancelLogout()">No</button>
+    </div>
+
+    <button id="logoutBtn" onclick="showConfirmation()">Log Out</button>		
+
+	</section>
+</body>
+</html> 
+
+
+
+

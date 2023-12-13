@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.thymeleaf.org" th:replace="base::layout(~{::section})">
+<head>
+	<meta charset="UTF-8" />
+	<title>This is home Page</title>
+	<style>
+        #register-link {
+            text-align: center;
+        }
+
+        #register-link a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+	<section class="banner d-flex justify-content-center align-items-center">
+		<div class="text-center">
+			<h1 class="font-weight-bold">Contact Manager App</h1>
+			<p>
+				Start collecting your contact in a smarter way.
+			</p>
+			<div id="register-link" class="text-centert">
+	        <a href="/signup" class="text-info">
+				<button onclick="signup" class="btn bg-colour btn-large text-white">Get Start</button>
+			</a>
+	        </div>
+		</div>
+	</section>
+</body>
+</html> 
